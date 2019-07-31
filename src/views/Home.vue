@@ -80,53 +80,13 @@ export default {
 };
 </script>
 <style scoped>
-.home {
-  border: 1px solid #ccc;
-  border-radius: 0.2rem;
-}
-.title {
-  color: #fff;
-  background-color: #007bff !important;
-  border-radius: 0.2rem 0.2rem 0 0;
-  padding: 0.35rem;
-  font-size: 0.4rem;
-  font-weight: bold;
-  position: relative;
-}
-.statistics {
-  background-color: #eee !important;
-  border-radius: 0 0 0.2rem 0.2rem;
-  padding: 0.13rem 0.35rem;
-  font-size: 0.4rem;
-  position: relative;
-}
-.btn {
-  text-align: center;
-}
-.btn-empty {
-  background: #dc3545;
-  border: none;
-  color: #fff;
-  border-radius: 0.05rem;
-  font-size: 0.18rem;
-  padding: 0.1rem 0.5rem;
-}
-.yes,
-.no {
-  position: absolute;
-  font-size: 0.24rem;
-}
-.count {
-  position: absolute;
-  right: 0.3rem;
-  top: 0.4rem;
-}
-.yes {
-  left: 0.1rem;
-  top: 0.25rem;
-}
-.no {
-  right: 0.1rem;
-  top: 0.25rem;
-}
+.home{border:1px solid #ccc;border-radius:0.2rem;}
+.title{color:#fff;background-color:#007bff!important;border-radius:0.2rem 0.2rem 0 0;padding:0.35rem;font-size:0.4rem;font-weight:bold;position:relative;}
+.statistics{background-color:#eee!important;border-radius:0 0 0.2rem 0.2rem;padding:0.13rem 0.35rem;font-size:0.4rem;position:relative;}
+.btn{text-align:center;}
+.btn-empty{background:#dc3545;border:none;color:#fff;border-radius:0.05rem;font-size:0.18rem;padding:0.1rem 0.5rem;}
+.yes,.no{position:absolute;font-size:0.24rem;}
+.count{position:absolute;right:0.3rem;top:0.4rem;}
+.yes{left:0.1rem;top:0.25rem;}
+.no{right:0.1rem;top:0.25rem;}
 </style>
