@@ -14,7 +14,7 @@
       </div>
     </div>
     <ul class="form-list" v-if="listTodo.length>0">
-      <li v-for="(item,index) in listTodo">
+      <li :key="index" v-for="(item,index) in listTodo">
         {{item.title}}--{{item.date}}
         <button
           v-if="item.completed"

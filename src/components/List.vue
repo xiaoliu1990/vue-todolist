@@ -1,7 +1,7 @@
 <template>
   <div class="list">
     <ul class="form-list" v-if="todoList.length>0">
-      <li v-for="(item,index) in todoList">
+      <li :key="index" v-for="(item,index) in todoList">
         {{item.title}}--{{item.date}}
         <button v-if="item.completed" class="btn-yes" @click="complet(index)">已完成</button>
         <button v-else class="btn-no" @click="complet(index)">未完成</button>

@@ -56,7 +56,7 @@ export default {
         if (dateStr == "") {
           let myDate = new Date();
           dateStr = myDate.getFullYear() + "-" + (myDate.getMonth() + 1) + "-" + myDate.getDate();
-        };
+        }
         todoList.push({
           title: nameStr,
           date: dateStr,
